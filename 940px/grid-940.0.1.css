@@ -1,0 +1,75 @@
+/*
+* @package bezzoom-grids
+* @version 0.1
+* @lastmodified 01.03.2016
+* @author Kos.muxa <kostmuxa@gmail.com>
+*
+* @section container layer
+* Styles affect the outer container
+*/
+.grid-container {
+	display: block;
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.grid-row {
+	margin-bottom: 20px;
+}
+.grid-row:after {
+	display: block;
+	clear: both;
+	width: 940px;
+	content: '';
+}
+.grid-container .grid-row:last-child {
+	margin-bottom: 0;
+}
+/*
+* @section Cell's styles
+* Styles affect the cells of grid
+*/
+.grid-cell {
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.grid-row .grid-cell:last-child {
+	margin-right: 0;
+}
+/*
+* A quarter of the width of the container
+*/
+.grid-cell-4 {
+	width: 220px;
+}
+/*
+* One third of the width of the container
+*/
+.grid-cell-3 {
+	width: 300px;
+}
+/*
+* Half the width of the container
+*/
+.grid-cell-2 {
+	width: 460px;
+}
+/*
+* Two-thirds of the width of the container
+*/
+.grid-cell-2-3 {
+	width: 620px;
+}
+/*
+* Three-quarters of the width of the container
+*/
+.grid-cell-3-4 {
+	width: 700px;
+}
+/*
+* Cell the full width of the container
+*/
+.grid-cell-1 {
+	width: 940px;
+}
