@@ -14,7 +14,7 @@
 */
 .grid-container {
 	display: block;
-	width: 940px;
+	width: 1060px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -24,7 +24,7 @@
 .grid-row:after {
 	display: block;
 	clear: both;
-	width: 940px;
+	width: 1060px;
 	content: '';
 }
 .grid-container .grid-row:last-child {
@@ -46,35 +46,35 @@
 * A quarter of the width of the container
 */
 .grid-cell-4 {
-	width: 220px;
+	width: 250px;
 }
 /*
 * One third of the width of the container
 */
 .grid-cell-3 {
-	width: 300px;
+	width: 340px;
 }
 /*
 * Half the width of the container
 */
 .grid-cell-2 {
-	width: 460px;
+	width: 520px;
 }
 /*
 * Two-thirds of the width of the container
 */
 .grid-cell-2-3 {
-	width: 620px;
+	width: 700px;
 }
 /*
 * Three-quarters of the width of the container
 */
 .grid-cell-3-4 {
-	width: 700px;
+	width: 790px;
 }
 /*
 * Cell the full width of the container
 */
 .grid-cell-1 {
-	width: 940px;
+	width: 1060px;
 }
