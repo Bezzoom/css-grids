@@ -14,17 +14,14 @@
 */
 .grid-container {
 	display: block;
-	width: 1180px;
+	width: 820px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
-.grid-row {
-	margin-bottom: 20px;
-}
-.grid-row:after {
+.grid-container:after {
 	display: block;
 	clear: both;
-	width: 1180px;
+	width: 820px;
 	content: '';
 }
 .grid-container .grid-row:last-child {
@@ -37,44 +34,46 @@
 .grid-cell {
 	display: block;
 	float: left;
-	margin-right: 20px;
+
+	        box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+padding: 10px;
 }
-.grid-row .grid-cell:last-child {
-	margin-right: 0;
-}
+
 /*
 * A quarter of the width of the container
 */
 .grid-cell-4 {
-	width: 280px;
+	width: 25%;
 }
 /*
 * One third of the width of the container
 */
 .grid-cell-3 {
-	width: 380px;
+	width: 33.333%;
 }
 /*
 * Half the width of the container
 */
 .grid-cell-2 {
-	width: 580px;
+	width: 50%;
 }
 /*
 * Two-thirds of the width of the container
 */
 .grid-cell-2-3 {
-	width: 780px;
+	width: 66%;
 }
 /*
 * Three-quarters of the width of the container
 */
 .grid-cell-3-4 {
-	width: 880px;
+	width: 75%;
 }
 /*
 * Cell the full width of the container
 */
 .grid-cell-1 {
-	width: 1180px;
+	width: 100%;
 }
